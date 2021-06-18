@@ -107,7 +107,7 @@ body{
 }
 /*project section styling */
 .project-git-source {
-    color: #49281A
+    font-size: 12px;
 }
 .project-list-divider {
     border-bottom: 2px solid #49281A;
@@ -119,10 +119,10 @@ body{
 /* contact styling*/
 #contactus  input {
     border:  2px solid #444;
-    border-radius: 0px;
 }
 #contactus  textarea {
     border:  2px solid #444;
+    border-radius: 4px;
 }
 .address p {
     padding:0;
@@ -130,9 +130,13 @@ body{
     font-size: 14px;
     color: #fff;
 }
+.btn-send{
+    border-radius: 4px;
+}
 .btn-send:hover{
     background-color: #fff;
     outline: 2px solid #ab6832;
+    border-radius: 4px;
 }
 /* footer */
 footer {
@@ -172,9 +176,6 @@ footer {
 }
 .reserved {
     color: #888888
-}
-.badge {
-    border-radius: 0px;
 }
 @media (min-width: 576px) { 
     .checking-border {
