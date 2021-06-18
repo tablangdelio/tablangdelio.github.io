@@ -177,6 +177,11 @@ footer {
 .reserved {
     color: #888888
 }
+.profile-image {
+    width: 50%;
+    -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
 @media (min-width: 576px) { 
     .checking-border {
         border: 2px solid red
@@ -198,12 +203,7 @@ footer {
         font-size: 18px
     }
     /*about styling section*/
-   .profile-image {
-    width: 50%;
-    -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
-    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
-
-    }
+   
 }
 @media (min-width: 768px) {
     .checking-border {
