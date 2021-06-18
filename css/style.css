@@ -40,7 +40,6 @@ body{
     text-decoration-style: solid;
     color: #ab6832;
     transition: linear 0.6s;
-  
 }
 .border-transparent {
     border:1px solid transparent
@@ -177,7 +176,6 @@ footer {
 .badge {
     border-radius: 0px;
 }
-
 @media (min-width: 576px) { 
     .checking-border {
         border: 2px solid red
