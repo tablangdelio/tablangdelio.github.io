@@ -142,6 +142,11 @@ body{
 .extra-mt-documentation {
     margin-top: 7rem;
 }
+
+/*orange*/
+.end-point-color {
+    color:rgb(192, 120, 25)
+}
 /* footer */
 footer {
     background-color: #333; 
